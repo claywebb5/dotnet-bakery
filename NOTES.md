@@ -11,8 +11,8 @@
     - http://localhost:5000/api/bakers
     - In Body, select "raw" and in dropdown "JSON", write in the object parameters and values -> {"name" : "Kris"}
 - DELETE
-    - http://localhost:5000/api/bakers
-    - 
+    - http://localhost:5000/api/bakers/:id
+    - Nothing in body or params
 - PUT
     - http://localhost:5000/api/bakers
     - 

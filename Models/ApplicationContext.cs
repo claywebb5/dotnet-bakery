@@ -8,5 +8,6 @@ namespace DotnetBakery.Models
 
         // Reference the classes and tables we need
         public DbSet<Baker> Bakers {get; set;}
+        public DbSet<Bread> Breads {get; set;}
     }
 }
